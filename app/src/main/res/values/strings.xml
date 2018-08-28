@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Book Store</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_text">Looks like there is no book here... \nGet Started by adding a book</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to edit a book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+
+    <!-- Label for book category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_title">Book Title</string>
+
+    <!-- Label for book category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_author">Book Author</string>
+
+    <!-- Label for price category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_price">Book Price</string>
+
+    <!-- Label for quantity category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_quantity">Quantity</string>
+
+    <!-- Label for supplier category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_supplier">Supplier Name</string>
+
+    <!-- Label for supplier category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_book_supplier_phone">Supplier Phone Number</string>
+
+    <!-- Label for price in the list item [CHAR LIMIT=30] -->
+    <string name="label_price">Price:</string>
+
+    <!-- Label for quantity in the list item [CHAR LIMIT=30] -->
+    <string name="label_quantity">Quantity:</string>
+
+
+
+
+
+    <!-- Text hint for title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_title">Title</string>
+
+    <!-- Text hint for title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_author">Author</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Price</string>
+
+    <!-- Units for price of the book (currency) [CHAR LIMIT=5] -->
+    <string name="unit_book_price">RON</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- Text hint for supplier field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier">Supplier</string>
+
+    <!-- Text hint for supplier field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplier_phone">Phone Number</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when current book has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Toast message in editor when current book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+
+    <!-- Label for the filling the book title field [CHAR LIMIT=20] -->
+    <string name="book_title_empty">Book title should be filled!</string>
+
+    <!-- Label for the filling the book author name field [CHAR LIMIT=20] -->
+    <string name="book_author_empty">Author name should be filled!</string>
+
+    <!-- Label for the filling the book price field [CHAR LIMIT=20] -->
+    <string name="book_price_empty">Book price should be greater than 0</string>
+
+    <!-- Label for the filling the book quantity field [CHAR LIMIT=20] -->
+    <string name="book_quantity_empty">Book quantity should be positive</string>
+
+    <!-- Label for the filling the book supplier name field [CHAR LIMIT=20] -->
+    <string name="supplier_name_empty">Supplier name should be filled!</string>
+
+    <!-- Label for the filling the supplier phone number field [CHAR LIMIT=20] -->
+    <string name="supplier_phone_number_empty">Supplier phone number should be filled!</string>
+
+    <!-- Label for the incorrect phone number [CHAR LIMIT=20] -->
+    <string name="invalid_phone_number">Invalid phone number</string>
+
+    <!-- Label for the book out os stock [CHAR LIMIT=20] -->
+    <string name="book_unavailable">This book is out of stock</string>
+
+    <!-- Label for the book sell button [CHAR LIMIT=20] -->
+    <string name="add_to_cart">Add to cart</string>
+
+</resources>
